@@ -1,0 +1,12 @@
+{
+  "name": "commandr",
+  "version": "0.0.1",
+  "description": "A Command and Invoker pattern implementation for JS and TS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
