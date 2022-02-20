@@ -1,11 +1,6 @@
-import {
-	CommandRunningEnvironment,
-	Invoker,
-	run,
-	CommandEnvelope,
-	CommandIdentifier,
-	CommandGeneratorProcedure,
-} from './Framework';
+import { run } from './run';
+import { CommandRunningEnvironment } from './environment';
+import { CommandEnvelope, CommandGeneratorProcedure, CommandIdentifier, Invoker } from './types';
 
 class TestCommandInvoker extends Invoker {
 	constructor(private fn) {
